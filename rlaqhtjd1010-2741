@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+	int a,i;
+	scanf("%d",&a);  //몇번 출력할지 입력
+	for(i=1; i<=a; i++) //a번 반복
+	{
+		printf("%d\n",i); // i출력
+	}
+	return 0;
+}
