@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	int a,i,b;
+	scanf("%d",&a);  
+	
+	for(i=0; i<a; i++)  //a번 반복
+	{
+		b=a-i; //a에 i를 뺀 후 b에 저장
+		printf("%d\n",b);  //b출력
+	} 
+	return 0;
+}
