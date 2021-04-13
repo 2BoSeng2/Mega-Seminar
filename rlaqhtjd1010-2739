@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	int a,b,i;
+	scanf("%d",&a);  //
+	
+	for(i=1; i<=9; i++) //9번 반복
+	{
+		b=a*i; //a에 i를 곱한 후 b 변수에 저장
+		printf("%d * %d = %d\n",a,i,b);  //b 변수 출력
+	}
+	return 0;
+}
